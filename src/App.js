@@ -3,6 +3,7 @@ import Test from './components/test';
 import Clock from './components/Clock';
 import ConditionalRenderComponent from './components/Conditional/conditionalRendering';
 import { NumberList } from './components/ListKeys/list_keys_component';
+import NameForm from './components/forms/reactGuide/basicForms';
 import './App.css';
 
 const user = {
@@ -22,11 +23,12 @@ const numbers = [1, 2, 3, 4, 5];
 function App() {
   return (
     <div className="App">
-      <Clock />
+      {/* <Clock />
       <Clock />
       <Clock />
       <ConditionalRenderComponent />
-      <NumberList numbers={numbers}/>
+      <NumberList numbers={numbers}/> */}
+      <NameForm/>
     </div>
   );
 }
