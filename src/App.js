@@ -4,6 +4,7 @@ import Clock from './components/Clock';
 import ConditionalRenderComponent from './components/Conditional/conditionalRendering';
 import { NumberList } from './components/ListKeys/list_keys_component';
 import NameForm from './components/forms/reactGuide/basicForms';
+import  Calculator  from './components/state/liftingState/Calculator';
 import './App.css';
 
 const user = {
@@ -28,7 +29,8 @@ function App() {
       <Clock />
       <ConditionalRenderComponent />
       <NumberList numbers={numbers}/> */}
-      <NameForm/>
+      {/* <NameForm/> */}
+      <Calculator />
     </div>
   );
 }
