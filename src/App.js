@@ -5,6 +5,7 @@ import ConditionalRenderComponent from './components/Conditional/conditionalRend
 import { NumberList } from './components/ListKeys/list_keys_component';
 import NameForm from './components/forms/reactGuide/basicForms';
 import  Calculator  from './components/state/liftingState/Calculator';
+import SignUpDialog from './components/Composition/Composition';
 import './App.css';
 
 const user = {
@@ -30,7 +31,9 @@ function App() {
       <ConditionalRenderComponent />
       <NumberList numbers={numbers}/> */}
       {/* <NameForm/> */}
-      <Calculator />
+      {/* <Calculator /> */}
+
+      <SignUpDialog />
     </div>
   );
 }
